@@ -21,14 +21,15 @@ Java Development Kit (JDK) installed.
 [Your Database System] installed and configured.
 
 **Installation**
+
 1.Clone the repository:
 
 git clone https://github.com/AnouarXperience/NumberPortability.git
 
-1.Navigate to the project directory:
+1.1.Navigate to the project directory:
 cd NumberPortability
 
-1.Install frontend dependencies:
+1.2.Install frontend dependencies:
 cd frontend
 npm install
 
