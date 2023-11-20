@@ -19,8 +19,23 @@ Follow these instructions to get a copy of the project up and running on your lo
 Node.js installed on your machine.
 Java Development Kit (JDK) installed.
 [Your Database System] installed and configured.
+
 **Installation**
 1.Clone the repository:
-git clone https://github.com/your-username/number-portability-project.git
+git clone https://github.com/AnouarXperience/NumberPortability.git
 1.Navigate to the project directory:
-cd number-portability
+cd NumberPortability
+1.Install frontend dependencies:
+cd frontend
+npm install
+2.Run the application:
+start Backend
+start frontend with : npm start
+3.Access the application at http://localhost:3000.
+
+**License**
+This project is licensed under the MIT License.
+
+****Thank you for your interest in the Number Portability Project! If you have any questions or issues, please mention it " ".****
+
+
