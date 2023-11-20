@@ -1,5 +1,5 @@
 # NumberPortability
-****Overview****
+**Overview**
 
 This project aims to develop a web application for managing Number Portability, utilizing React for the front end and Spring Boot for the back end. Number Portability allows users to switch their telecommunications service provider while retaining their existing phone number.
 
