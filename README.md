@@ -40,6 +40,7 @@ start frontend with : npm start
 3.Access the application at http://localhost:3000.
 
 **License**
+
 This project is licensed under the MIT License.
 
 ****Thank you for your interest in the Number Portability Project! If you have any questions or issues, please mention it " ".****
