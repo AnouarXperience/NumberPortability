@@ -22,15 +22,20 @@ Java Development Kit (JDK) installed.
 
 **Installation**
 1.Clone the repository:
+
 git clone https://github.com/AnouarXperience/NumberPortability.git
+
 1.Navigate to the project directory:
 cd NumberPortability
+
 1.Install frontend dependencies:
 cd frontend
 npm install
+
 2.Run the application:
 start Backend
 start frontend with : npm start
+
 3.Access the application at http://localhost:3000.
 
 **License**
