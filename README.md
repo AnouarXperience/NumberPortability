@@ -18,6 +18,7 @@ Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine.
 
 **Prerequisites**
+
 Node.js installed on your machine.
 Java Development Kit (JDK) installed.
 [Your Database System] installed and configured.
@@ -29,13 +30,16 @@ Java Development Kit (JDK) installed.
 git clone https://github.com/AnouarXperience/NumberPortability.git
 
 1.1.Navigate to the project directory:
+
 cd NumberPortability
 
 1.2.Install frontend dependencies:
+
 cd frontend
 npm install
 
 2.Run the application:
+
 start Backend
 start frontend with : npm start
 
