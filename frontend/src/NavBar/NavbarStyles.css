@@ -1,0 +1,13 @@
+/* NavbarStyles.css */
+.navbar-brand {
+    color: black;
+    font-size: 24px; /* Adjust the font size as needed */
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+  }
+  .navbar-link {
+    transition: color 0.05s ease-in-out, font-size 0.05s ease-in-out;
+  }
+  .navbar-brand:hover, .navbar-link:hover {
+    color: blue;
+    font-size: 28px; /* Adjust the font size as needed */
+  }

@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  back-end:
+    image: adoptopenjdk/openjdk11:ubi
+    build:
+      context: ./back-end/PortabilityApp
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    environment:
+      DB_URL: jdbc:mysql://mysql-db/portability
+      DB_USERNAME: root
+      DB_PASSWORD: RAS#951753@lanwaros
+    depends_on:
+      - mysql-container 
+
+  front-end:
+    image: node:18-alpine3.17
+    build:
+      context: ./front-end
+      dockerfile: Dockerfile
+    ports:
+      - 80:3000
+    depends_on:
+      - back-end
+
+  mysql-container:
+    image: mysql:8.0.34
+    volumes:
+      - dbdata:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: portability
+      MYSQL_ROOT_PASSWORD: RAS#951753@lanwaros
+      MYSQL_USER: root
+      MYSQL_PASSWORD: RAS#951753@lanwaros
+
+volumes:
+  dbdata:
