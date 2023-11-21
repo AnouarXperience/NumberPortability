@@ -6,15 +6,25 @@ This project aims to develop a web application for managing Number Portability, 
 **Features**
 
 User Authentication: Secure user login.
+
 Admin Interface: Customizable admin interface for managing Number Portability requests.
+
 Functionality: Implementation of core features related to Number Portability.
+
 Responsive Design: User-friendly interface accessible on various devices.
+
 Technologies Used
+
 Frontend: React.js
+
 Backend: Spring Boot
+
 Database: [Your Database System]
+
 Other Technologies: Docker
+
 Getting Started
+
 Follow these instructions to get a copy of the project up and running on your local machine.
 
 **Prerequisites**
