@@ -15,7 +15,7 @@ This project aims to develop a web application for managing Number Portability, 
 
 - **Frontend:** React.js
 - **Backend:** Spring Boot
-- **Database:** [Your Database System]
+- **Database:** SQL
 - **Other Technologies:** Docker
 
 ## Getting Started
