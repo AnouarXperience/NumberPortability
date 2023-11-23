@@ -1,64 +1,63 @@
 # NumberPortability
-**Overview**
+
+## Overview
 
 This project aims to develop a web application for managing Number Portability, utilizing React for the front end and Spring Boot for the back end. Number Portability allows users to switch their telecommunications service provider while retaining their existing phone number.
 
-**Features**
+## Features
 
-User Authentication: Secure user login.
+- **User Authentication:** Secure user login.
+- **Admin Interface:** Customizable admin interface for managing Number Portability requests.
+- **Functionality:** Implementation of core features related to Number Portability.
+- **Responsive Design:** User-friendly interface accessible on various devices.
 
-Admin Interface: Customizable admin interface for managing Number Portability requests.
+## Technologies Used
 
-Functionality: Implementation of core features related to Number Portability.
+- **Frontend:** React.js
+- **Backend:** Spring Boot
+- **Database:** [Your Database System]
+- **Other Technologies:** Docker
 
-Responsive Design: User-friendly interface accessible on various devices.
-
-Technologies Used
-
-Frontend: React.js
-
-Backend: Spring Boot
-
-Database: [Your Database System]
-
-Other Technologies: Docker
-
-Getting Started
+## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
 
-**Prerequisites**
+### Prerequisites
 
-Node.js installed on your machine.
-Java Development Kit (JDK) installed.
-[Your Database System] installed and configured.
+- Node.js installed on your machine.
+- Java Development Kit (JDK) installed.
+- [Your Database System] installed and configured.
 
-**Installation**
+### Installation
 
-1.Clone the repository:
+1. Clone the repository:
 
-git clone https://github.com/AnouarXperience/NumberPortability.git
+    ```bash
+    git clone https://github.com/AnouarXperience/NumberPortability.git
+    ```
 
-1.1.Navigate to the project directory:
+    1.1. Navigate to the project directory:
 
-cd NumberPortability
+    ```bash
+    cd NumberPortability
+    ```
 
-1.2.Install frontend dependencies:
+    1.2. Install frontend dependencies:
 
-cd frontend
-npm install
+    ```bash
+    cd frontend
+    npm install
+    ```
 
-2.Run the application:
+2. Run the application:
 
-start Backend
-start frontend with : npm start
+    - Start Backend
+    - Start frontend with: `npm start`
 
-3.Access the application at http://localhost:3000.
+3. Access the application at http://localhost:3000.
 
-**License**
+## License
 
 This project is licensed under the MIT License.
 
-****Thank you for your interest in the Number Portability Project! If you have any questions or issues, please mention it " ".****
-
-
+Thank you for your interest in the Number Portability Project! If you have any questions or issues, please mention them.
